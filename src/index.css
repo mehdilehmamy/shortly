@@ -227,6 +227,13 @@ button:hover {
   opacity: 0.6;
 }
 
+.myurl {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: baseline;
+}
+
 .url-list {
   margin-top: 8rem;
   margin-bottom: 8rem;
@@ -249,6 +256,23 @@ button:hover {
   font-weight: 700;
   color: hsl(180, 66%, 49%);
 }
+
+.copy {
+  all: unset;
+  margin-top: 1rem;
+  background-color: hsl(180, 66%, 49%);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all .1s ease-in-out;
+  margin-left: -10rem;
+  margin-right: 5rem;
+}
+
+
 
 
 
