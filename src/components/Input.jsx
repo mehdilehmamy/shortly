@@ -39,7 +39,7 @@ export default function Input () {
                     return (<div className="myurl">
                         <div className="url" key={Math.random()}>
                              <p>{url.result.original_link}</p>
-                             <a href={"http://" + url.result.short_link} target="_blank">{url.result.short_link}</a>
+                             <a href={"http://" + url.result.short_link} target="_blank" rel="noreferrer">{url.result.short_link}</a>
                         </div>
                         <button className="copy" onClick={() => {
                                 navigator.clipboard.writeText(url.result.short_link);
