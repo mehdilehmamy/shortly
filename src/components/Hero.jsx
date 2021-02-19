@@ -11,7 +11,7 @@ export default function Hero () {
                     <p>
                     Build your brand’s recognition and get detailed insights on how your links are performing.
                     </p>
-                    <button>Get Started</button>
+                    <a href="#shorter"><button>Get Started</button></a>
                 </div>
                 <div className="illustration">
                     <img src="images/illustration-working.svg" alt="bg"/>
